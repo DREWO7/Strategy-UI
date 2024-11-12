@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Strategy Selector</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <div class="view-toggle">
+      <button class="view-btn" data-view="Bullish">Bullish</button>
+      <button class="view-btn active" data-view="Bearish">Bearish</button>
+      <button class="view-btn" data-view="RangeBound">RangeBound</button>
+      <button class="view-btn" data-view="Volatile">Volatile</button>
+    </div>
+    <select id="dateDropdown"></select>
+    <div id="strategiesContainer"></div>
+  </div>
+  <script src="working.js"></script>
+</body>
+</html>

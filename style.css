@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .view-toggle {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .view-btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: lightgray;
+  }
+  
+  .view-btn.active {
+    background-color: blue;
+    color: white;
+  }
+  
+  #dateDropdown {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+  }
+  
+  .strategy-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px 0;
+  }
+  
+  .empty-state {
+    text-align: center;
+    color: gray;
+    margin-top: 20px;
+  }
+  
